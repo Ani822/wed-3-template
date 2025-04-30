@@ -1,0 +1,14 @@
+.welcome_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  gap: 12px;
+  .welcome_image{
+    border: 1px black solid;
+    border-radius: 50%;
+  }
+  .welcome_names{
+    font-size: 28px;
+  }
+}

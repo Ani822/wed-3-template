@@ -1,0 +1,23 @@
+.timeline{
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  .timeline_title{
+    text-align: center;
+  }
+  .timeline_item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    .timeline_item_top{
+      display: flex;
+      justify-content: space-between;
+    }
+    .timeline_item_middle{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
