@@ -24,32 +24,43 @@
     }
     .time_countdown {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 16px;
       padding: 0 24px;
-      margin: 25px;
+      // margin: 25px;
       width: 100%;
       // font-size: 32px;
       .time_countdown_item {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 8px;
         justify-content: center;
         align-items: center;
         font-weight: 400;
-        font-family: 'Josefin Slab', sans-serif;
+        // font-family: 'Cormorant SC', sans-serif;
         .time_value {
           font-size: 28px;
-          font-family: 'Josefin Slab', sans-serif;
-          line-height: 54px;
-        }
-        .time_name {
-          font-size: 20px;
-          font-family: 'Josefin Slab', sans-serif;
-          font-weight: 400;
+          font-family: 'Cormorant SC', sans-serif;
+          
         }
       }
+
+       .time_countdown_name{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+        //  font-family: "Cormorant SC", sans-serif;
+         font-weight: 400;
+         gap: 8px;
+         .time_name {
+          font-size: 18px;
+          font-family: "Cormorant SC", sans-serif;
+          font-weight: 400;
+        }
+       }
     }
     @media only screen and (max-width: 550px) {
       .time_countdown {
@@ -65,7 +76,7 @@
         }
       }
       .countdown_title{
-font-size: 24px;
+         font-size: 24px;
       }
     }
   }
