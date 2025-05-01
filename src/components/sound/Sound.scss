@@ -1,7 +1,4 @@
 .sound_div{
-  // position: fixed;
-  // top: 16px;
-  // right: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +9,7 @@
   transition: all 0.3s linear;
   border: none;
   cursor: pointer;
+  margin: 36px 0;
 }
 
 .sound_div:hover{

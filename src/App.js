@@ -7,6 +7,8 @@ import Timeline from "./components/timeline/Timeline";
 import ContactOwnerForm from "./components/contact-owner/ContactOwnerForm";
 import CountDown from './components/count-down/CountDown';
 import "react-international-phone/style.css";
+import DressCode from "./components/dress-code/Dresscode";
+import Blessings from "./components/blessings/Blessings";
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Welcome />
       <Location />
       <Timeline />
+      <DressCode />
+      <Blessings />
       <ContactOwnerForm />
       <Contacts />
       <CountDown />

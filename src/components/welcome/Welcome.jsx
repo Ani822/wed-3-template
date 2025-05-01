@@ -18,6 +18,11 @@ const Welcome = () => {
       </div>
       <p className="welcome_names">Tigran & Mariam</p>
       <Sound />
+      <div style={{maxWidth: '450px', textAlign: 'center'}}>
+      <h3>Дорогие родные и друзья!</h3>
+      <p>С радостью приглашаем Вас на нашу свадьбу! Мы счастливы объединить наши жизни и хотели бы поделиться этим с Вами.</p>
+      </div>
+      
       <div className="welcome_month_year" style={{
         display: 'flex',
         justifyContent: 'center',
@@ -25,8 +30,6 @@ const Welcome = () => {
         gap: '24px',
         maxWidth: '400px',
       }}>
-        <h3>Дорогие родные и друзья!</h3>
-        <p>С радостью приглашаем Вас на нашу свадьбу! Мы счастливы объединить наши жизни и хотели бы поделиться этим с Вами.</p>
         <div style={{
           borderTop: '3px black solid',
           borderBottom: '3px black solid',

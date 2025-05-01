@@ -1,0 +1,14 @@
+.blessings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  .blessing_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+}
