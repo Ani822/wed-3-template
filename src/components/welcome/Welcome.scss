@@ -4,11 +4,23 @@
   align-items: center;
   font-size: 24px;
   gap: 12px;
+  .welcome_text{
+     font-family: "Pinyon Script", sans-serif;
+     font-weight: 400;
+     font-size: 35px;
+  }
   .welcome_image{
     border: 1px black solid;
     border-radius: 50%;
   }
+  .calendar_name{
+    font-family: "Pinyon Script", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
   .welcome_names{
-    font-size: 28px;
+    font-size: 21px;
+    font-family: "Pinyon Script", sans-serif;
+    font-weight: 400;
   }
 }

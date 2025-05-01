@@ -5,7 +5,7 @@ import "./Welcome.scss";
 const Welcome = () => {
   return (
     <div className="welcome_main">
-      <p>Invitation to wedding</p>
+      <p className="welcome_text">Invitation to wedding</p>
       <img
         src={welcome_image}
         alt="image"
@@ -13,7 +13,7 @@ const Welcome = () => {
         height={200}
         className="welcome_image"
       />
-      <div>
+      <div className="calendar_name">
         Calendar
       </div>
       <p className="welcome_names">Tigran & Mariam</p>
