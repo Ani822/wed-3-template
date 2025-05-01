@@ -5,6 +5,8 @@
   width: 100%;
   margin: 0 auto;
   .timeline_title{
+    font-family: "Pinyon Script", sans-serif;
+    font-weight: 400;
     text-align: center;
   }
   .timeline_item{
@@ -12,6 +14,8 @@
     flex-direction: column;
     gap: 4px;
     .timeline_item_top{
+      font-family: "Pinyon Script", sans-serif;
+      font-weight: 400;
       display: flex;
       justify-content: space-between;
     }
