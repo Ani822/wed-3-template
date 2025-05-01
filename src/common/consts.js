@@ -1,15 +1,15 @@
-import location_icon from '../images/location/church_icon.png';
-import restaurant_icon from '../images/location/nor_dvin.jpg';
+import location_icon from '../images/location/location_icon.jpg';
+import restaurant_icon from '../images/location/restaurant_icon.jpg';
 
-export const locationData = {
+export const location = {
   church: {
-    name: 'Պսակադրությունը տեղի կունենա Հռիփսիմե եկեղեցում',
+    name: 'ЖДЕМ ВАС: ЗАГС «Дворец Бракосочетания №1»',
     background: location_icon,
-    link: 'https://maps.app.goo.gl/XkLZw953nEbLyxFu7'
+    // link: 'https://maps.app.goo.gl/XkLZw953nEbLyxFu7'
   },
   restaurant: {
-    name: 'Հարսանյաց հանդեսը տեղի կունենա “Նոր Դվին” ռեստորանում',
+    name: 'ЖДЕМ ВАС: «Петергоф лофт»',
     background: restaurant_icon,
-    link: 'https://www.google.com/maps/search/?api=1&query=Restaurant+Nor+Dvin+Armenia'
+    // link: 'https://www.google.com/maps/search/?api=1&query=Restaurant+Nor+Dvin+Armenia'
   }
 }
