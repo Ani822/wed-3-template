@@ -17,8 +17,8 @@ const DressCode = () => {
           borderRadius: "16px",
         }}
       >
-        <h2 style={{ fontSize: "35px", textAlign: 'center' }}>Dress code</h2>{" "}
-        <p style={{ fontSize: "18px", textAlign: "center" }}>
+        <h2 style={{ fontSize: "35px", textAlign: 'center', fontFamily: 'Pinyon Script, sans-serif', fontWeight: '400' }}>Dress code</h2>{" "}
+        <p style={{ fontSize: "18px", textAlign: "center",  fontFamily: 'Cormorant SC, sans-serif', fontWeight: '400'}}>
           Мы очень старались сделать праздник красивым и будем рады, если в
           своих нарядах Вы поддержите цветовую гамму нашей свадьбы:
         </p>
