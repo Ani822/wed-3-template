@@ -14,7 +14,7 @@ const Timeline = () => {
             <div className="line"></div>
             <div className="circle"></div>
           </div>
-          <div>
+          <div className="timeline_text">
             встречаемся, настраиваемся на веселую
             <br />
             свадьбу, главное не опаздывать.
@@ -30,7 +30,7 @@ const Timeline = () => {
             <div className="line"></div>
             <div className="circle"></div>
           </div>
-          <div>
+          <div className="timeline_text">
             встречаемся, настраиваемся на веселую
             <br />
             свадьбу, главное не опаздывать.
@@ -46,7 +46,7 @@ const Timeline = () => {
             <div className="line"></div>
             <div className="circle"></div>
           </div>
-          <div>
+          <div className="timeline_text">
             встречаемся, настраиваемся на веселую
             <br />
             свадьбу, главное не опаздывать.
@@ -62,7 +62,7 @@ const Timeline = () => {
             <div className="line"></div>
             <div className="circle"></div>
           </div>
-          <div>
+          <div className="timeline_text">
             встречаемся, настраиваемся на веселую
             <br />
             свадьбу, главное не опаздывать.
