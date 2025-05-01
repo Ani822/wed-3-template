@@ -1,0 +1,15 @@
+.contact_div_child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact_border{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 42px;
+    bottom: 15px;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}

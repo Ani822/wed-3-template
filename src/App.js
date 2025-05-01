@@ -5,7 +5,9 @@ import Welcome from "./components/welcome/Welcome";
 import Contacts from "./components/contacts/Contacts";
 import Timeline from "./components/timeline/Timeline";
 import ContactOwnerForm from "./components/contact-owner/ContactOwnerForm";
+import CountDown from './components/count-down/CountDown';
 import "react-international-phone/style.css";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Timeline />
       <ContactOwnerForm />
       <Contacts />
+      <CountDown />
       <Footer />
     </div>
   );
