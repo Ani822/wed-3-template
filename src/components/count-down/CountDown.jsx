@@ -12,23 +12,14 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   return (
     <div className="time_countdown">
       <div className="time_countdown_item">
-        <span className="time_value">{pad(days)} : </span>
-        <span className="time_name">Days</span>
+        <span className="time_value">{pad(days)}</span> : <span className="time_value">{pad(hours)}</span> : <span className="time_value">{pad(minutes)}</span> : <span className="time_value">{pad(seconds)}</span>
       </div>
 
-      <div className="time_countdown_item">
-        <span className="time_value">{pad(hours)} : </span>
-        <span className="time_name">Hours</span>
-      </div>
-
-      <div className="time_countdown_item">
-        <span className="time_value">{pad(minutes)} : </span>
-        <span className="time_name">Minutes</span>
-      </div>
-
-      <div className="time_countdown_item">
-        <span className="time_value">{pad(seconds)}</span>
-        <span className="time_name">Seconds</span>
+      <div className="time_countdown_name">
+      <span className="time_name">Days </span>
+        <span className="time_name">Hours </span>
+        <span className="time_name">Minutes </span>
+        <span className="time_name">Seconds </span>
       </div>
 
     </div>
