@@ -18,6 +18,27 @@ const Welcome = () => {
       </div>
       <p className="welcome_names">Tigran & Mariam</p>
       <Sound />
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '24px',
+        maxWidth: '400px',
+      }}>
+        <div style={{
+          borderTop: '3px black solid',
+          borderBottom: '3px black solid',
+          padding: '24px',
+          lineHeight: '150%'
+        }}>June</div>
+        <div>25</div>
+        <div style={{
+          borderTop: '3px black solid',
+          borderBottom: '3px black solid',
+          padding: '24px',
+          lineHeight: '150%'
+        }}>2025</div>
+      </div>
     </div>
   );
 };
