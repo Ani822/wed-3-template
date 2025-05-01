@@ -18,7 +18,7 @@
       top: 24%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-family: 'Josefin Slab', sans-serif;
+      font-family: 'Pinyon Script', sans-serif;
       font-weight: 400;
       font-size: 36px;
     }
@@ -41,8 +41,9 @@
         font-weight: 400;
         // font-family: 'Cormorant SC', sans-serif;
         .time_value {
-          font-size: 28px;
+          font-size: 32px;
           font-family: 'Cormorant SC', sans-serif;
+          font-weight: 400;
           
         }
       }
@@ -56,7 +57,7 @@
          font-weight: 400;
          gap: 8px;
          .time_name {
-          font-size: 18px;
+          font-size: 12px;
           font-family: "Cormorant SC", sans-serif;
           font-weight: 400;
         }
