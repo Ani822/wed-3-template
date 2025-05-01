@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Howl } from "howler";
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
-import PauseCircleOutlineIcon from '@mui/icons-material/PauseCircleOutline';
-import './Sound.scss';
+import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
+import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
+import "./Sound.scss";
 
 const sound = new Howl({
   src: ["/wedding-music.mp3"],
@@ -28,7 +28,11 @@ const Sound = () => {
 
   return (
     <button className="sound_div" onClick={togglePlay}>
-      {isPlaying ? <PauseCircleOutlineIcon fontSize="large" /> : <PlayCircleOutlineIcon fontSize="large" />}
+      {isPlaying ? (
+        <PauseCircleOutlineIcon sx={{ fontSize: 80 }} />
+      ) : (
+        <PlayCircleOutlineIcon sx={{ fontSize: 80 }} />
+      )}
     </button>
   );
 };
