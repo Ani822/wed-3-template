@@ -1,5 +1,6 @@
 import image from '../../images/location/location_icon.jpg';
 import image_1 from '../../images/location/restaurant_icon.jpg';
+import './Location.scss';
 
 
 function Location() {
@@ -9,7 +10,7 @@ function Location() {
 
                 <p className="loc_res_text">Место проведения регистрации</p>
 
-                <div className="location_img_div">
+                <div className="location_img_div" style={{ width: `calc(${100 / 3}%)` }}>
                     <p className="location_title">ЖДЕМ ВАС: <br />
                         ЗАГС «Дворец Бракосочетания №1»</p>
 
