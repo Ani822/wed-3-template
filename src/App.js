@@ -9,6 +9,7 @@ import CountDown from './components/count-down/CountDown';
 import "react-international-phone/style.css";
 import DressCode from "./components/dress-code/Dresscode";
 import Blessings from "./components/blessings/Blessings";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ContactOwnerForm />
       <Contacts />
       <CountDown />
+      <Footer />
     </div>
   );
 }
