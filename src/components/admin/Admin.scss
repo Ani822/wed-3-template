@@ -27,8 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    padding: 8px;
+    // height: 40px;
+    // padding: 8px;
     .call_to_link {
       color: #111;
       text-decoration: underline;
@@ -61,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -71,6 +72,7 @@
 
   #guest_id {
     width: 10%;
+    height: 80px;
   }
   .guestParam {
     display: flex;
@@ -78,6 +80,7 @@
     width: 100%;
     .guestRow {
       display: flex;
+      height: 40px;
 
       #guest_name {
         width: 50%;

@@ -14,9 +14,6 @@ const Timeline = () => {
             <div className="line"></div>
             <div className="circle"></div>
           </div>
-          <div className="timeline_text">
-            Քաղաք Աբովյան, Սուրբ Հովհաննես եկեղեցի
-          </div>
         </div>
 
         <div className="timeline_item">
@@ -27,6 +24,9 @@ const Timeline = () => {
           <div className="timeline_item_middle">
             <div className="line"></div>
             <div className="circle"></div>
+          </div>
+          <div className="timeline_text">
+            Քաղաք Աբովյան, Սուրբ Հովհաննես եկեղեցի
           </div>
         </div>
 

@@ -26,17 +26,25 @@ const Admin = () => {
           <div className="admin_param" id="guest_id">
             No.
           </div>
-          <div className="admin_param" id="guest_name">
-            Անուն Ազգանուն
-          </div>
-          <div className="admin_param" id="guest_phone">
-            Հեռախոսահամար
-          </div>
-          <div className="admin_param" id="guest_count">
-            Քանակ
-          </div>
-          <div className="admin_param" id="guest_isVisting">
-            Ներկա Կգտնվի՞
+
+          <div className="guestParam">
+            <div className="guestRow">
+              <div className="admin_param" id="guest_name">
+                Անուն Ազգանուն
+              </div>
+              <div className="admin_param" id="guest_phone">
+                Հեռախոսահամար
+              </div>
+            </div>
+
+            <div className="guestRow">
+              <div className="admin_param" id="guest_count">
+                Քանակ
+              </div>
+              <div className="admin_param" id="guest_isVisting">
+                Ներկա Կգտնվի՞
+              </div>
+            </div>
           </div>
         </div>
         {guests !== null ? (
@@ -70,7 +78,6 @@ const Admin = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             );
           })
