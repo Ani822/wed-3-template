@@ -1,10 +1,10 @@
-import image from "../../images/location/church_image.webp";
+import image from "../../images/location/church_image.jpg";
 import image_1 from "../../images/location/restaurant_image.jpg";
 import "./Location.scss";
 
 function Location() {
-  const link1 = '';
-  const link2 = '';
+  const link1 = 'https://maps.app.goo.gl/ntCE19jL8Uo2SrKD7';
+  const link2 = 'https://maps.app.goo.gl/Z8nBAUbb2x4KHWYE9';
 
   return (
     <div className="location_main">
