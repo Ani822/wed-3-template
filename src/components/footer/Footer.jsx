@@ -1,4 +1,4 @@
-import image from "../../images/main_background.jpg";
+import image from "../../images/footer/footer_image.jpg";
 import './Footer.scss';
 import React from "react";
 

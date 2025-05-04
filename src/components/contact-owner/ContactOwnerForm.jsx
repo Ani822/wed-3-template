@@ -1,26 +1,26 @@
 import { useState } from "react";
-import { Formik,Form,Field } from 'formik';
-import { PhoneInput } from 'react-international-phone';
-import { sendInviteRequest } from '../../api/invite-api';
-import BadgeIcon from '@mui/icons-material/Badge';
-import GroupIcon from '@mui/icons-material/Group';
+import { Formik, Form, Field } from "formik";
+import { PhoneInput } from "react-international-phone";
+import { sendInviteRequest } from "../../api/invite-api";
+import BadgeIcon from "@mui/icons-material/Badge";
+import GroupIcon from "@mui/icons-material/Group";
 import { Button } from "@mui/material";
 import toast from "react-hot-toast";
-import './ContactOwnerForm.scss';
+import "./ContactOwnerForm.scss";
 
 const initialValue = {
-  name: '',
-  phone: '',
+  name: "",
+  phone: "",
   guestCount: 1,
-  isVisiting: 'Yes'
-}
+  isVisiting: "Yes",
+};
 
 const ContactOwnerForm = () => {
-  const [phone,setPhone] = useState();
+  const [phone, setPhone] = useState();
 
   return (
     <>
-      <Formik
+      {/* <Formik
         validateOnMount
         validateOnChange
         initialValues={initialValue}
@@ -112,8 +112,7 @@ const ContactOwnerForm = () => {
                   <Button
                     className={isValid ? "contact_button" : "contact_button_disabled"}
                     type="submit"
-                    disabled={!isValid || !values.name}
-                    style={{opacity: values.name ? '1' : '0.5'}}
+                    disabled={!isValid}
                   >Ուղարկել</Button>
                 </div>
               </div>
@@ -121,9 +120,30 @@ const ContactOwnerForm = () => {
             </div>
           </Form>
         )}
-      </Formik>
+      </Formik> */}
+      <div
+        className="contact_main_div"
+        style={{
+          height: "auto",
+          margin: "60px auto 20px auto",
+          padding: "12px",
+          minHeight: '0',
+        }}
+      >
+        <p
+          style={{
+            maxWidth: "500px",
+            textAlign: "center",
+            // margin: "0",
+          }}
+        >
+          Երբ սերը դառնում է ճակատագիր, օրը դառնում է տոն։ Մեր սրտերը միավորվում
+          են մեկ երջանիկ պատմության մեջ։ Հրավիրում ենք Ձեզ՝ նշելու մեր սիրո
+          հաղթանակը միասին։
+        </p>
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default ContactOwnerForm;
