@@ -128,6 +128,7 @@ const ContactOwnerForm = () => {
           margin: "60px auto 20px auto",
           padding: "12px",
           minHeight: '0',
+          width: 'auto'
         }}
       >
         <p
