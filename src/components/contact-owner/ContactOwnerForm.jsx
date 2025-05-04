@@ -112,7 +112,8 @@ const ContactOwnerForm = () => {
                   <Button
                     className={isValid ? "contact_button" : "contact_button_disabled"}
                     type="submit"
-                    disabled={!isValid}
+                    disabled={!isValid || !values.name}
+                    style={{opacity: values.name ? '1' : '0.5'}}
                   >Ուղարկել</Button>
                 </div>
               </div>
