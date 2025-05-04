@@ -1,11 +1,12 @@
-import welcome_image from "../../images/main_background.png";
-import Sound from '../sound/Sound.jsx';
+import welcome_image from "../../images/main_background.jpg";
+import Sound from "../sound/Sound.jsx";
 import "./Welcome.scss";
+import Calendar from "../calendar/Calendar.jsx";
 
 const Welcome = () => {
   return (
     <div className="welcome_main">
-      <p className="welcome_text">Invitation to wedding</p>
+      <p className="welcome_text">Սիրով հրավիրում ենք Ձեզ մեր հարսանիքին</p>
       <img
         src={welcome_image}
         alt="image"
@@ -13,36 +14,50 @@ const Welcome = () => {
         height={200}
         className="welcome_image"
       />
-      <div className="calendar_name">
-        Calendar
-      </div>
-      <p className="welcome_names">Tigran & Mariam</p>
+      <Calendar />
+      <p className="welcome_names">Խաչո և Միլենա</p>
       <Sound />
-      <div style={{maxWidth: '450px', textAlign: 'center'}}>
-      <h3 className="welcome_heading">Дорогие родные и друзья!</h3>
-      <p className="welcome_paragraph">С радостью приглашаем Вас на нашу свадьбу! Мы счастливы объединить наши жизни и хотели бы поделиться этим с Вами.</p>
+      <div style={{ maxWidth: "450px", textAlign: "center", lineHeight: '105%' }}>
+        <h3 className="welcome_heading">Սիրելի բարեկամներ և ընկերներ</h3>
+        <p className="welcome_paragraph">
+          Մենք ուրախ ենք հրավիրել Ձեզ մեր հարսանիքին
+          <br />
+          Մենք ուրախ ենք մեր կյանքը միավորելու համար և կցանկանայինք սա կիսել Ձեզ հետ
+        </p>
       </div>
-      
-      <div className="welcome_month_year" style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap: '24px',
-        maxWidth: '400px',
-      }}>
-        <div style={{
-          borderTop: '3px black solid',
-          borderBottom: '3px black solid',
-          padding: '24px',
-          lineHeight: '150%'
-        }}>June</div>
-        <div>25</div>
-        <div style={{
-          borderTop: '3px black solid',
-          borderBottom: '3px black solid',
-          padding: '24px',
-          lineHeight: '150%'
-        }}>2025</div>
+
+      <div
+        className="welcome_month_year"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "24px",
+          maxWidth: "400px",
+        }}
+      >
+        <div
+          style={{
+            borderTop: "3px black solid",
+            borderBottom: "3px black solid",
+            padding: "24px",
+            lineHeight: "150%",
+            fontSize: "17px",
+          }}
+        >
+          Հունիս
+        </div>
+        <div>06</div>
+        <div
+          style={{
+            borderTop: "3px black solid",
+            borderBottom: "3px black solid",
+            padding: "19px",
+            lineHeight: "150%",
+          }}
+        >
+          2025
+        </div>
       </div>
     </div>
   );

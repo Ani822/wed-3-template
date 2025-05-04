@@ -19,7 +19,7 @@ root.render(
       />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/forAdminGeghamHakobyan" element={<Admin />} />
+        <Route path="/for-Xacho-and-Milena" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -7,7 +7,8 @@
   .welcome_text{
      font-family: "Pinyon Script", sans-serif;
      font-weight: 400;
-     font-size: 35px;
+     font-size: 24px;
+     text-align: center;
   }
   .welcome_image{
     border: 1px black solid;
@@ -27,6 +28,8 @@
     font-family: "Pinyon Script", sans-serif;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+    margin: auto;
   }
   .welcome_paragraph{
     font-family: "Cormorant SC", sans-serif;

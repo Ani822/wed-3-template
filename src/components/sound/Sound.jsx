@@ -27,13 +27,16 @@ const Sound = () => {
   }, []);
 
   return (
-    <button className="sound_div" onClick={togglePlay}>
-      {isPlaying ? (
-        <PauseCircleOutlineIcon sx={{ fontSize: 80 }} />
-      ) : (
-        <PlayCircleOutlineIcon sx={{ fontSize: 80 }} />
-      )}
-    </button>
+    <>
+      <button className="sound_div" onClick={togglePlay}>
+        {isPlaying ? (
+          <PauseCircleOutlineIcon sx={{ fontSize: 80 }} />
+        ) : (
+          <PlayCircleOutlineIcon sx={{ fontSize: 80 }} />
+        )}
+      </button>
+      <span style={{fontSize: '12px', marginBottom:'28px', textTransform: 'uppercase'}}>միացնել երաժշտությունը</span>
+    </>
   );
 };
 

@@ -1,53 +1,44 @@
-import image from "../../images/location/location_icon.jpg";
-import image_1 from "../../images/location/restaurant_icon.jpg";
+import image from "../../images/location/church_image.webp";
+import image_1 from "../../images/location/restaurant_image.jpg";
 import "./Location.scss";
 
 function Location() {
+  const link1 = '';
+  const link2 = '';
+
   return (
     <div className="location_main">
       <div className="location_content">
-        <p className="loc_res_text">Место проведения регистрации</p>
+        <p className="loc_res_text">Սուրբ Հովհաննես եկեղեցի</p>
 
         <div className="location_img_div">
-          <p className="location_title">
-            ЖДЕМ ВАС: <br />
-            ЗАГС «Дворец Бракосочетания №1»
-          </p>
-
           <p className="location_text">
-            ПО АДРЕСУ: <br />
-            ул. Свободы, 2Б, Котовск
+            Հասցե։ ք. Աբովյան
           </p>
 
           <img src={image} alt="location_icon" className="location_img" />
-          <button className="map_button">ПОСМОТРЕТЬ КАРТУ</button>
+
+          <a className="location_map" href={link1} target="_blank">
+            <button className="map_button">ՏԵՍՆԵԼ ՔԱՐՏԵԶԻ ՎՐԱ</button>
+          </a>
         </div>
 
-        {/* <div>
-                    <a className="location_map" href={link} target="_blank">
-                        Քարտեզ
-                    </a>
-                </div> */}
-
-        <div className="location_content">
-          <p className="loc_res_text">Место проведения банкета</p>
+        
+      </div>
+      <div className="location_content">
+          <p className="loc_res_text">Ռեստորան Ոսկե Ծիրան Պրեմիում Հոլ</p>
 
           <div className="location_img_div">
-            <p className="location_title">ЖДЕМ ВАС: «Петергоф лофт»</p>
             <p className="location_text">
-              ПО АДРЕСУ: территория Троицкая гора, д. 33
+              Հասցե։ ք. Արտաշատ, փ. Աբովյան 91
             </p>
             <img src={image_1} alt="location_icon" className="location_img" />
-            <button className="map_button">ПОСМОТРЕТЬ КАРТУ</button>
 
-            {/* <div>
-                            <a className="location_map" href={link} target="_blank">
-                                Քարտեզ
-                            </a>
-                        </div> */}
+            <a className="location_map" href={link2} target="_blank">
+              <button className="map_button">ՏԵՍՆԵԼ ՔԱՐՏԵԶԻ ՎՐԱ</button>
+            </a>
           </div>
         </div>
-      </div>
     </div>
   );
 }
